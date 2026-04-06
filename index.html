@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secret Surprise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Hey ❤️</h2>
+<h2>This is only for someone special</h2>
+<p>Enter the password to unlock your surprise 🎁</p>
+
+<input type="password" id="pass" placeholder="Enter password">
+<br><br>
+<button onclick="check()">Unlock</button>
+
+<script>
+function check(){
+  var password = document.getElementById("pass").value;
+
+  if(password == "gundu@007"){
+    window.location = "surprise.html";
+  } else {
+    alert("Wrong password Mister MJ....Try again 😜!");
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,361 @@
+/* Using Times New Roman for all text */
+body {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  /* New soft romantic gradient */
+  background: linear-gradient(135deg, #fceabb, #f8b195, #f67280, #c06c84);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+h1 {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 42px;
+  text-shadow: 3px 3px 10px #ff4d88, 0 0 20px #ffd1dc;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+/* Image styling with hover effect */
+img {
+  margin: 10px;
+  border-radius: 25px;
+  width: 200px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+img:hover {
+  transform: scale(1.15) rotate(-2deg);
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+}
+
+/* Button styling with hover animation */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background: linear-gradient(45deg, #ff4d88, #ff1a66, #ff85a2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff1a66, #ff4d88, #ffa0c4);
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0px 12px 25px rgba(0,0,0,0.5);
+}
+
+/* Surprise message */
+#msg {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #ff4d88;
+}
+
+/* Floating hearts animation */
+.heart {
+  position: absolute;
+  font-size: 24px;
+  color: #ff4d88;
+  animation: floatUp 5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes floatUp {
+  0% {transform: translateY(0) scale(1);}
+  50% {transform: translateY(-150px) scale(1.2);}
+  100% {transform: translateY(-300px) scale(1);}
+}/* Using Times New Roman for all text */
+body {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  /* New soft romantic gradient */
+  background: linear-gradient(135deg, #fceabb, #f8b195, #f67280, #c06c84);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+h1 {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 42px;
+  text-shadow: 3px 3px 10px #ff4d88, 0 0 20px #ffd1dc;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+/* Image styling with hover effect */
+img {
+  margin: 10px;
+  border-radius: 25px;
+  width: 200px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+img:hover {
+  transform: scale(1.15) rotate(-2deg);
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+}
+
+/* Button styling with hover animation */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background: linear-gradient(45deg, #ff4d88, #ff1a66, #ff85a2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff1a66, #ff4d88, #ffa0c4);
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0px 12px 25px rgba(0,0,0,0.5);
+}
+
+/* Surprise message */
+#msg {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #ff4d88;
+}
+
+/* Floating hearts animation */
+.heart {
+  position: absolute;
+  font-size: 24px;
+  color: #ff4d88;
+  animation: floatUp 5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes floatUp {
+  0% {transform: translateY(0) scale(1);}
+  50% {transform: translateY(-150px) scale(1.2);}
+  100% {transform: translateY(-300px) scale(1);}
+}/* Using Times New Roman for all text */
+body {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  /* New soft romantic gradient */
+  background: linear-gradient(135deg, #fceabb, #f8b195, #f67280, #c06c84);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+h1 {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 42px;
+  text-shadow: 3px 3px 10px #ff4d88, 0 0 20px #ffd1dc;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+/* Image styling with hover effect */
+img {
+  margin: 10px;
+  border-radius: 25px;
+  width: 200px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+img:hover {
+  transform: scale(1.15) rotate(-2deg);
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+}
+
+/* Button styling with hover animation */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background: linear-gradient(45deg, #ff4d88, #ff1a66, #ff85a2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff1a66, #ff4d88, #ffa0c4);
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0px 12px 25px rgba(0,0,0,0.5);
+}
+
+/* Surprise message */
+#msg {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #ff4d88;
+}
+
+/* Floating hearts animation */
+.heart {
+  position: absolute;
+  font-size: 24px;
+  color: #ff4d88;
+  animation: floatUp 5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes floatUp {
+  0% {transform: translateY(0) scale(1);}
+  50% {transform: translateY(-150px) scale(1.2);}
+  100% {transform: translateY(-300px) scale(1);}
+}/* Using Times New Roman for all text */
+body {
+  text-align: center;
+  font-family: 'Times New Roman', serif;
+  /* New soft romantic gradient */
+  background: linear-gradient(135deg, #fceabb, #f8b195, #f67280, #c06c84);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+h1 {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 42px;
+  text-shadow: 3px 3px 10px #ff4d88, 0 0 20px #ffd1dc;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+/* Image styling with hover effect */
+img {
+  margin: 10px;
+  border-radius: 25px;
+  width: 200px;
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+  transition: transform 0.5s, box-shadow 0.5s;
+}
+
+img:hover {
+  transform: scale(1.15) rotate(-2deg);
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+}
+
+/* Button styling with hover animation */
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background: linear-gradient(45deg, #ff4d88, #ff1a66, #ff85a2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0px 8px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #ff1a66, #ff4d88, #ffa0c4);
+  transform: scale(1.1) rotate(-2deg);
+  box-shadow: 0px 12px 25px rgba(0,0,0,0.5);
+}
+
+/* Surprise message */
+#msg {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #ff4d88;
+}
+
+/* Floating hearts animation */
+.heart {
+  position: absolute;
+  font-size: 24px;
+  color: #ff4d88;
+  animation: floatUp 5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes floatUp {
+  0% {transform: translateY(0) scale(1);}
+  50% {transform: translateY(-150px) scale(1.2);}
+  100% {transform: translateY(-300px) scale(1);}
+}
